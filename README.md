@@ -230,6 +230,9 @@ volatile int i = 10;
 * const 可以是 volatile （如只读的状态寄存器）
 * 指针可以是 volatile
 
+https://blog.csdn.net/turkeyzhou/article/details/8953911
+https://blog.csdn.net/turkeyzhou/article/details/8953911
+
 ### assert()
 
 断言，是宏，而非函数。assert 宏的原型定义在 `<assert.h>`（C）、`<cassert>`（C++）中，其作用是如果它的条件返回错误，则终止程序执行。可以通过定义 `NDEBUG` 来关闭 assert，但是需要在源代码的开头，`include <assert.h>` 之前。
